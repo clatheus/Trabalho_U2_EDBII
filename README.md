@@ -28,3 +28,6 @@ Este projeto implementa e analisa comparativamente dois dos principais algoritmo
 * **Compilação:** g++ -std=c++17 -Iinclude src/LLRB.cpp src/main_LLRB.cpp -o llrb_app
 * **Execução op1:** ./llrb_app
 * **Execução op2:** llrb_app.exe
+
+## 3. obs:
+Professora não consegui colocar os executáveis no github pois uso linux aí eles não tão sendo gerados. Mas quando uso os comandos de compilação no windows eles são criados normalmente!!
