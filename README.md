@@ -2,7 +2,9 @@
 # Amazon Engineering Challenge: Árvores Balanceadas (AVL e Rubro-Negra LLRB)
 
 **Disciplina:** EDB II
+
 **Instituição:** IMD/UFRN
+
 **Aluno:** Matheus Lucheze Lopes 
 
 ## 1. Visão Geral do Projeto
