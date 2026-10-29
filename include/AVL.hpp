@@ -42,6 +42,7 @@ public:
     bool search(int key, int& steps) const;
     void inOrder() const;
     void print() const;
+    void clear(); // Esvazia a árvore e reinicia contadores
     int getHeight() const;
     long long getSimpleRotations() const;
     long long getDoubleRotations() const;

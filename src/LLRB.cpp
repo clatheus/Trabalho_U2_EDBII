@@ -12,6 +12,14 @@ LLRBTree::~LLRBTree() {
     destroy(root);
 }
 
+void LLRBTree::clear() {
+    destroy(root);
+    root = nullptr;
+    leftRotations = 0;
+    rightRotations = 0;
+    colorFlips = 0;
+}
+
 bool LLRBTree::isRed(RBTNode* node) const { // Nós nulos sempre são pretos
     return (node && node->color == RED);
 }

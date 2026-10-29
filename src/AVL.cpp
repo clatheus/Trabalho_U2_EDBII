@@ -12,6 +12,13 @@ AVLTree::~AVLTree() {
     destroy(root);
 }
 
+void AVLTree::clear() {
+    destroy(root);
+    root = nullptr;
+    simpleRotations = 0;
+    doubleRotations = 0;
+}
+
 int AVLTree::getHeight(AVLNode* node) const {
     return node ? node->height : 0; // Nó nulo possui altura 0
 }
