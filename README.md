@@ -10,10 +10,10 @@
 ## 1. Visão Geral do Projeto
 
 ### O Problema da Árvore de Busca Comum (BST)
-Se os identificadores de encomendas chegarem em ordem sequencial (por exemplo: `101, 102, 103, 104...`), uma árvore binária comum perde sua forma ramificada e degenera em uma lista encadeada (formato linear/zigue-zague). Nesses casos, o tempo de busca deixa de ser rápido ($O(\log n)$) e passa a ser lento ($O(n)$).
+Se os identificadores de encomendas chegarem em ordem sequencial (por exemplo: `101, 102, 103, 104...`), uma árvore binária comum perde sua forma ramificada e degenera em uma lista encadeada (formato linear/zigue-zague). Nesses casos, o tempo de busca deixa de ser rápido (O(log n)) e passa a ser lento (O(n)).
 
 ### A Solução
-Este projeto implementa e analisa comparativamente dois dos principais algoritmos auto-balanceados da computação, garantindo tempo de resposta $O(\log n)$ mesmo nos piores cenários de entrada:
+Este projeto implementa e analisa comparativamente dois dos principais algoritmos auto-balanceados da computação, garantindo tempo de resposta O(log n) mesmo nos piores cenários de entrada:
 * **Árvore AVL:** Rigidez no balanceamento por controle direto das alturas das subárvores.
 * **Árvore Rubro-Negra (LLRB):** Balanceamento flexível por cores e codificação de Árvores 2-3, minimizando reestruturações pesadas na memória.
 
