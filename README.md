@@ -29,5 +29,9 @@ Este projeto implementa e analisa comparativamente dois dos principais algoritmo
 * **Execução op1:** ./llrb_app
 * **Execução op2:** llrb_app.exe
 
+### Comparação
+* **Compilação:** g++ -O3 -Iinclude src/AVL.cpp src/LLRB.cpp src/benchmark.cpp -o benchmark_app
+* **Execução dos testes:** ./benchmark_app
+
 ## 3. obs:
 Professora não consegui colocar os executáveis no github pois uso linux aí eles não tão sendo gerados. Mas quando uso os comandos de compilação no windows eles são criados normalmente!!
